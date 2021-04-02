@@ -1,0 +1,98 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap'); */
+@font-face {
+  src : url("../fonts/BMJUA_ttf.ttf");
+  font-family: "jua" 
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.menu-columns{
+  text-align: center;
+}
+.menu-ul{
+  list-style-type: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(20%, auto));
+}
+
+.menu-li {
+  position: relative;
+  margin: 5px;
+  width: 100%;
+  float: left;
+}
+.menu-img{
+    width: 160px;
+}
+
+.name {
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: bold;
+  max-height: 38px;
+  margin-top: 8px;
+  /* text-overflow: ellipsis; */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+.price {
+  display: block;
+  /*     overflow: hidden; */
+  padding-top: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'jua', sans-serif;
+  /*     white-space: nowrap; */
+  /*     text-overflow: ellipsis; */
+}
+
+.menu-title{
+    font-family: 'jua', sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+span{
+    font-family: 'jua', sans-serif;
+}
+
+.menu-outlined{
+  margin-top:10px;
+  margin-left: 7px;
+  font-size: 20px;
+}
+.menu-fold-out-lined{
+  font-size: 24px;
+}
+
+
+last-menu{
+  position: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+    li {
+        position: relative;
+        margin: 5px;
+        width: 100%;
+        float: left;
+    }
+
+    .menu-img{
+        width: 100px;
+        /* width: 99.8%; */
+    }
+    
+}
