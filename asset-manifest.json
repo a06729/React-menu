@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/a06729/React-menu/static/css/main.08b0e133.chunk.css",
+    "main.js": "/a06729/React-menu/static/js/main.0b6d4220.chunk.js",
+    "main.js.map": "/a06729/React-menu/static/js/main.0b6d4220.chunk.js.map",
+    "runtime-main.js": "/a06729/React-menu/static/js/runtime-main.a69b8ccd.js",
+    "runtime-main.js.map": "/a06729/React-menu/static/js/runtime-main.a69b8ccd.js.map",
+    "static/css/2.a5497ee8.chunk.css": "/a06729/React-menu/static/css/2.a5497ee8.chunk.css",
+    "static/js/2.6eea767d.chunk.js": "/a06729/React-menu/static/js/2.6eea767d.chunk.js",
+    "static/js/2.6eea767d.chunk.js.map": "/a06729/React-menu/static/js/2.6eea767d.chunk.js.map",
+    "static/js/3.cf9c9756.chunk.js": "/a06729/React-menu/static/js/3.cf9c9756.chunk.js",
+    "static/js/3.cf9c9756.chunk.js.map": "/a06729/React-menu/static/js/3.cf9c9756.chunk.js.map",
+    "index.html": "/a06729/React-menu/index.html",
+    "static/css/2.a5497ee8.chunk.css.map": "/a06729/React-menu/static/css/2.a5497ee8.chunk.css.map",
+    "static/css/main.08b0e133.chunk.css.map": "/a06729/React-menu/static/css/main.08b0e133.chunk.css.map",
+    "static/js/2.6eea767d.chunk.js.LICENSE.txt": "/a06729/React-menu/static/js/2.6eea767d.chunk.js.LICENSE.txt",
+    "static/media/item.css": "/a06729/React-menu/static/media/BMJUA_ttf.bf12d2d8.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a69b8ccd.js",
+    "static/css/2.a5497ee8.chunk.css",
+    "static/js/2.6eea767d.chunk.js",
+    "static/css/main.08b0e133.chunk.css",
+    "static/js/main.0b6d4220.chunk.js"
+  ]
+}
