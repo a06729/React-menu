@@ -358,30 +358,30 @@ class App extends Component {
               })}
             </ul>
          </div>
-         <br/>
-         <br/>
-         <br/>
+         <div class="bottom_nav_div">
           <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__btn">
-                   <a class="nav__link" href="#/">
-                      <img onClick={this.check_menu_Scroll} style={{width:'38px'}} alt="" src={chickenicon}/>
-                    </a>
-                </li>
-                <li class="nav__btn">
-                  <a class="nav__link" href="#/">
-                     <img onClick={this.side_menu_Scroll} style={{width:'38px'}} alt="" src="https://img.icons8.com/wired/64/000000/salad-bowl.png"/>
-                  </a>
-                </li>
-                <li class="nav__btn">
+              <ul class="nav__list">
+                  <li class="nav__btn">
                     <a class="nav__link" href="#/">
-                      <a class="nav__link" href="#/">
-                        <img onClick={this.beverage_menu_Scroll} style={{width:'38px'}} alt="" src="https://img.icons8.com/ios/100/000000/beer--v1.png"/>
+                        <img onClick={this.check_menu_Scroll} style={{width:'38px'}} alt="" src={chickenicon}/>
                       </a>
+                  </li>
+                  <li class="nav__btn">
+                    <a class="nav__link" href="#/">
+                      <img onClick={this.side_menu_Scroll} style={{width:'38px'}} alt="" src="https://img.icons8.com/wired/64/000000/salad-bowl.png"/>
                     </a>
-                </li>
-            </ul>
-          </nav>
+                  </li>
+                  <li class="nav__btn">
+                      <a class="nav__link" href="#/">
+                        <a class="nav__link" href="#/">
+                          <img onClick={this.beverage_menu_Scroll} style={{width:'38px'}} alt="" src="https://img.icons8.com/ios/100/000000/beer--v1.png"/>
+                        </a>
+                      </a>
+                  </li>
+              </ul>
+            </nav>
+         </div>
+
       </div>
     );
   }
